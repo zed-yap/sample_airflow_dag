@@ -8,3 +8,4 @@ dag = DAG('my_first_dag', description='Testing dag',
           start_date=datetime(2018, 12, 3), catchup=False)
 
 test_operation = BashOperator(task_id='my_first_dag',bash_command="ifconfig -a",dag=dag)
+test2_operation = BashOperator(task_id='my_second_dag',bash_command="ifconfig -a",dag=dag)
