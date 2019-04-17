@@ -10,6 +10,3 @@ dag = DAG('my_first_dag', description='Testing dag',
 test_operation = BashOperator(task_id='my_first_dag',bash_command="ifconfig -a",dag=dag)
 test2_operation = BashOperator(task_id='my_second_dag',bash_command="ifconfig -a",dag=dag)
 test3_operation = BashOperator(task_id='my_third_dag',bash_command="ifconfig -a",dag=dag)
-test4_operation = BashOperator(task_id='my_fourth_dag',bash_command="ifconfig -a",dag=dag)
-test5_operation = BashOperator(task_id='my_fifth_dag',bash_command="ifconfig -a",dag=dag)
-test6_operation = BashOperator(task_id='my_sixth_dag',bash_command="ifconfig -a",dag=dag)
