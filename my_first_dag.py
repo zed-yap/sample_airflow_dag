@@ -14,5 +14,3 @@ test4_operation = BashOperator(task_id='my_fourth_dag',bash_command="ifconfig -a
 test5_operation = BashOperator(task_id='my_fifth_dag',bash_command="ifconfig -a",dag=dag)
 test6_operation = BashOperator(task_id='my_sixth_dag',bash_command="ifconfig -a",dag=dag)
 test7_operation = BashOperator(task_id='my_seventh_dag',bash_command="ifconfig -a",dag=dag)
-test8_operation = BashOperator(task_id='my_eigth_dag',bash_command="ifconfig -a",dag=dag)
-test9_operation = BashOperator(task_id='my_ninth_dag',bash_command="ifconfig -a",dag=dag)
